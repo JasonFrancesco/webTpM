@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+}
+
+.panel {
+    width: 734px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #000;
+    margin-left: 464px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.panel .logo img {
+    display: block;
+    margin: 0 auto;
+    top: 127px;
+}
+
+.panel h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.panel h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-container {
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 469px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container label {
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.nama {
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.password-container a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 5px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+}
+
+.login {
+    border-radius: 45.144px;
+    background: #0f3570;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    width: 469px;
+    padding: 9.029px 40px;
+    margin-top: 20px;
+}
+
+.nama,
+.password {
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    width: 469px;
+}
+
+.footer {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+}
+
+.footer a {
+    color: #0eb0de;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer span {
+    margin-top: 166px;
+}
+
+#togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-150%);
+    cursor: pointer;
+}
